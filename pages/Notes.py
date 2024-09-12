@@ -2,7 +2,7 @@ import streamlit as st
 import os
 st.set_page_config(page_title="For The Best Person Ever", page_icon="💝", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-st.markdown("<h1 style='text-align: center; color: white;'>Notes <3</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>Notes <3</h1>", unsafe_allow_html=True)
 
 notes_folder = "Notes"
 if not os.path.exists(notes_folder):
